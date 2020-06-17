@@ -13,3 +13,13 @@ a {
   text-decoration: none;
   color: #414141;
 }
+
+.heading {
+  color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffffff;
+  font-size: 110px;
+  font-family: 'HK-Grotesk-Bold', sans-serif;
+  line-height: 1;
+}
