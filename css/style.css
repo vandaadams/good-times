@@ -1,3 +1,7 @@
+:root {
+  --orange: #FF3C15;
+}
+
 body {
   font-family: 'HK-Grotesk-Medium', sans-serif;
   font-size: 18px;
@@ -26,14 +30,14 @@ a {
 
 .heading-orange {
   font-size: 120px;
-  -webkit-text-stroke-color: #FF3C15;
+  -webkit-text-stroke-color: var(--orange);
   margin-bottom: 3rem;
-  color: #FF3C15;
+  color: var(--orange);
 }
 
 .button {
   display: inline-block;
-  background-color: #FF3C15;
+  background-color: var(--orange);
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
