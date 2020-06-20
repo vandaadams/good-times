@@ -24,6 +24,13 @@ a {
   line-height: 1;
 }
 
+.heading-orange {
+  font-size: 120px;
+  -webkit-text-stroke-color: #FF3C15;
+  margin-bottom: 3rem;
+  color: #FF3C15;
+}
+
 .button {
   display: inline-block;
   background-color: #FF3C15;
