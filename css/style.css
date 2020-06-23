@@ -114,3 +114,14 @@ blockquote {
   line-height: 1;
   margin-bottom: 8px;
 }
+
+.schedule-day {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+  padding: 24px;
+  color: #ffffff;
+  line-height: 1;
+  background-color: var(--orange);
+  text-align: center;
+}
