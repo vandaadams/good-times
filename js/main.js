@@ -14,3 +14,8 @@ VanillaTilt.init(document.querySelectorAll('.image'), {
   max: 25,
   speed: 400
 })
+
+// fades in/fades out images on scroll
+inView('.fade')
+  .on('enter', img => img.classList.add('visible'))
+  .on('exit', img => img.classList.remove('visible'))
